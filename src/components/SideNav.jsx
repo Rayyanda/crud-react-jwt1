@@ -71,7 +71,7 @@ export default function SideNav({content}) {
                                     <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                                     Dashboard
                                 </Link>
-                                <div className="sb-sidenav-menu-heading">Interface</div>
+                                {/* <div className="sb-sidenav-menu-heading">Interface</div>
                                 <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                     <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
                                     Layouts
@@ -118,7 +118,7 @@ export default function SideNav({content}) {
                                 <a className="nav-link" href="charts.html">
                                     <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div>
                                     Charts
-                                </a>
+                                </a> */}
                                 <Link className="nav-link" to={'/mahasiswa'}>
                                     <div className="sb-nav-link-icon"><i className="bi-table"></i></div>
                                     Mahasiswa
