@@ -18,16 +18,6 @@ export default function Login() {
     //define  the navigate hook to redirect after login
     const navigate = useNavigate();
 
-    //handle input email
-    // const handleInputChange = (e) =>
-    // {
-    //     const newValue = e.target.value;
-    //     setEmail(newValue);
-    //     console.log(email);
-    //     setValidation(newValue.trim() !== '')
-    // }
-
-
     //make login handler
     const loginHandler = async (e) => {
         e.preventDefault();
